@@ -1,0 +1,22 @@
+<paquet
+	prefix="emogrifier"
+	categorie="outil"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.0.11;3.0.*]"
+	logo=""
+	documentation=""
+>
+	<!--
+		Paquet genere le 2013-08-29 17:21:47
+	-->
+
+	<nom>Emogrifier</nom>
+
+	<auteur lien='http://vertige.org'>Vertige ASBL</auteur>
+
+	<licence>GNU/GPL</licence>
+
+  <lib nom="emogrifier" lien="http://www.pelagodesign.com/emogrifier/emogrifier.zip" />
+
+</paquet>
