@@ -1,11 +1,11 @@
 <paquet
 	prefix="emogrifier"
 	categorie="outil"
-	version="1.0.0"
+	version="1.0.1"
 	etat="dev"
 	compatibilite="[3.0.11;3.0.*]"
 	logo=""
-	documentation=""
+	documentation="https://github.com/bystrano/emogrifier"
 >
 	<!--
 		Paquet genere le 2013-08-29 17:21:47

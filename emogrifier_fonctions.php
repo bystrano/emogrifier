@@ -11,7 +11,10 @@
 
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-function filtre_emogrifier($html, $fichier_css='css/newsletter.css') {
+if (!defined('_EMOGRIFIER_CSS')
+    define(_EMOGRIFIER_CSS, 'css/newsletter.css');
+
+function filtre_emogrifier($html, $fichier_css=_EMOGRIFIER_CSS) {
 
   include_spip('lib/emogrifier/emogrifier');
 

@@ -8,3 +8,4 @@ Ce plugin fournit un filtre que l'on peut utiliser directement dans les squelett
     #FILTRE{emogrifier}
 
 Le filtre ira automatiquement chercher le fichier `css/newsletter.css` et l'appliquera à la newsletter. Le deuxième paramètre du filtre permet de choisir un autre fichier css.
+Comme la balise #FILTRE ne permet pas d'utiliser plusieurs paramètres, il est aussi possible de changer le fichier css par défaut en définissant une constante nommée `_EMOGRIFIER_CSS` dans `mes_options.php`.
